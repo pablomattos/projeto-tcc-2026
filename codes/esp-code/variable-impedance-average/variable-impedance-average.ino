@@ -5,8 +5,8 @@
 #define AD5933_ADDR 0x0D
 
 const double CLK_FREQ = 16776000.0;
-const double R_CAL = 986.0;
-const double RFB = 982.0;
+const double R_CAL = 97320.0;
+const double RFB = 97230.0;
 
 long startFreq = 10000;
 long freqIncr = 250;
