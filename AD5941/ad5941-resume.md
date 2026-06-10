@@ -9,7 +9,7 @@ O fluxo de funcionamento do **AD5941** opera como um ciclo fechado de instrument
 
 O caminho exato que o sinal percorre divide-se em **4 estágios principais**:
 
-![Fluxo de funcionamento](fluxo-funcionamento.png)
+![Fluxo de funcionamento](./fluxo-funcionamento.png)
 
 ---
 
