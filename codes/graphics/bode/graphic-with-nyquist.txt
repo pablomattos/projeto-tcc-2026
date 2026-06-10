@@ -1,4 +1,4 @@
-import serial
+Adeque o código abaixo, para receber os dados de impedância e fase do código anterior: import serial
 import serial.tools.list_ports
 import csv
 import time
