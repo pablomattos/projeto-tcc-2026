@@ -11,8 +11,6 @@ O caminho exato que o sinal percorre divide-se em **4 estágios principais**:
 
 ![Fluxo de funcionamento](./fluxo-funcionamento-ad5941.png)
 
----
-
 ### 1. Comando do Host e Geração do Sinal (Excitação)
 
 Todo o ciclo começa no microcontrolador Host (**ESP32**), que envia as configurações de ensaio via barramento **SPI** (frequência inicial, frequência final, número de passos e amplitude).
