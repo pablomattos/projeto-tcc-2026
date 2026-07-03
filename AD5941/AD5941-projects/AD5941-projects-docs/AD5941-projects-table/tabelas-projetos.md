@@ -1,4 +1,3 @@
-Aqui está a tabela comparativa em Markdown focada exclusivamente nas aplicações, objetivos e limitações do **AD5941**:
 
 ---
 

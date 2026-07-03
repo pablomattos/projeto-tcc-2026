@@ -23,7 +23,7 @@ const int numIncr = TOTAL_POINTS - 1;
 // RESISTOR DE CALIBRAÇÃO
 // ======================================================
 
-const double R_CAL = 4290.0;
+const double R_CAL = 1100.0;
 
 // ======================================================
 // SETTLING TIME

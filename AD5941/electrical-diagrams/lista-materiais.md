@@ -1,40 +1,61 @@
+Aqui está a tabela da **Lista de Materiais (BOM)** atualizada e expandida. Adicionei uma coluna exclusiva especificando exatamente em quais pinos do encapsulamento **LFCSP de 48 pinos** do AD5941 cada componente passivo e de suporte deve ser conectado.
+
+---
+
 # ESPECIFICAÇÃO DE HARDWARE E LISTA DE MATERIAIS (BOM)
 
-**Projeto:** Subsistema Central de Medição por Espectroscopia de Impedância  
-**Chips de Controle:** Analog Devices AD5941 + Espressif Systems ESP32-WROOM-32E  
-**Data da Documentação:** Junho de 2026  
+**Projeto:** Subsistema Central de Medição por Espectroscopia de Impedância
+
+**Chips de Controle:** Analog Devices AD5941 + Espressif Systems ESP32-WROOM-32E
+
+**Data da Documentação:** Junho de 2026
 
 ---
 
 ## 1. Tabela de Componentes e Lista de Materiais (BOM)
 
-A tabela abaixo descreve de forma analítica e ponto a ponto os componentes semicondutores, passivos e de precisão que compõem a malha central do circuito eletrônico:
+A tabela abaixo descreve de forma analítica os componentes que compõem a malha central do circuito eletrônico, detalhando sua pinagem física de destino no AD5941:
 
-| Item | Componente Eletrônico e Descrição Técnica | Part Number de Fábrica | Fabricante | Qtd |
-| :---: | :--- | :---: | :---: | :---: |
-| **1** | IC Analog Front End (AFE) para Espectroscopia de Impedância (LFCSP-48) | AD5941BCPZ | Analog Devices | 1 |
-| **2** | Módulo Microcontrolador ESP32 DevKit v4 (Chip ESP32-WROOM-32E) | ESP32-DEVKITC-32E | Espressif Systems | 1 |
-| **3** | Cristal de Quartzo de Alta Estabilidade 16.000 MHz 9pF SMD 3.2x2.5mm | ECS-160-9-33B-CWN-TR | ECS Inc. | 1 |
-| **4** | Capacitor Cerâmico Multicamadas MLCC 12pF 25V C0G (NP0) SMD 0603 | C0603C0G1E120J030BA | TDK | 2 |
-| **5** | Capacitor Cerâmico Multicamadas MLCC 10µF 16V X5R SMD 1206 (Bulk) | CC1206KFX5R7BB106 | YAGEO | 1 |
-| **6** | Capacitor Cerâmico Multicamadas MLCC 1µF 16V X7R SMD 0603 (Reg LDO) | CC0603JRX77BB105 | YAGEO | 1 |
-| **7** | Capacitor Cerâmico Multicamadas MLCC 0.1µF 16V X7R SMD 0603 (Bypass) | C0603JRX7R7BB104 | YAGEO | 2 |
-| **8** | Resistor de Filme Fino de Ultra Precisão para Calibração 1.00 kΩ 0.1% 0603 | RC0603BR-071KL | YAGEO | 1 |
+| Item | Componente Eletrônico e Descrição Técnica | Part Number de Fábrica | Fabricante | Qtd | Pinos de Conexão no AD5941 (LFCSP-48) |
+| --- | --- | --- | --- | --- | --- |
+| **1** | IC Analog Front End (AFE) para Espectroscopia de Impedância (LFCSP-48) | AD5941BCPZ | Analog Devices | 1 | *Componente Principal* |
+| **2** | Módulo Microcontrolador ESP32 DevKit v4 (Chip ESP32-WROOM-32E) | ESP32-DEVKITC-32E | Espressif Systems | 1 | Pinos 15 (CS), 16 (SCLK), 17 (MOSI), 18 (MISO), 19 (GPIO0/IRQ) e 22 (RESET). |
+| **3** | Cristal de Quartzo de Alta Estabilidade 16.000 MHz 9pF SMD 3.2x2.5mm | ECS-160-9-33B-CWN-TR | ECS Inc. | 1 | Entre o **Pino 11 (XTALI)** e o **Pino 12 (XTALO)**. |
+| **4** | Capacitor Cerâmico Multicamadas MLCC 12pF 25V C0G (NP0) SMD 0603 | C0603C0G1E120J030BA | TDK | 2 | Um capacitor do **Pino 11 (XTALI) para o DGND**; um do **Pino 12 (XTALO) para o DGND**. |
+| **5** | Conector Borne KRE para Sensores/Eletrodos, 6 vias, Passo 7.5mm, Entrada Vertical | DB128V-7.5-6P-GN-S | Degson | 1 | Roteado diretamente para os pinos analógicos de medição: **47 (CE0), 48 (RE0), 46 (DE0), 45 (SE0), 39 (AIN0)** e malha de **AGND**. |
+| **6** | Resistor de Filme Fino de Ultra Precisão para Calibração 1.00 kΩ 0.1% 0603 ($R_{CAL}$) | RC0603BR-071KL | YAGEO | 1 | Conectado diretamente entre o **Pino 32 (RCAL0)** e o **Pino 33 (RCAL1)**. |
+| **7** | Resistor de Filme Espesso para Pull-up de Linha Digital 10 kΩ 5% SMD 0603 | RC0603JR-0710KL | YAGEO | 1 | Entre o **Pino 22 (RESET)** e a linha de alimentação digital **IOVDD (Pino 26)**. |
+| **8** | Capacitor Cerâmico Multicamadas MLCC 10µF 16V X5R SMD 1206 (Bulk AVDD) | CC1206KFX5R7BB106 | YAGEO | 1 | Conectado na entrada principal de alimentação analógica comum entre os **Pinos 30 e 41 (AVDD) para o AGND**. |
+| **9** | Capacitor Cerâmico Multicamadas MLCC 4.7µF 16V X5R SMD 0603 (Bulk DVDD e VREF 1.82V) | CC0603KRX5R7BB475 | YAGEO | 2 | **Capacitor 1:** Do **Pino 6 (DVDD) para o DGND**.<br>
+
+<br>**Capacitor 2:** Do **Pino 43 (VREF_1V82) para o AGND**. |
+| **10** | Capacitor Cerâmico Multicamadas MLCC 470nF 16V X7R SMD 0603 (Desacoplamento de Reguladores) | CC0603KRX7R7BB474 | YAGEO | 4 | **Capacitor 1:** Do **Pino 4 (VREF_2V5) para o AGND**.<br>
+
+<br>**Capacitor 2:** Do **Pino 5 (AVDD_REG) para o AGND**.<br>
+
+<br>**Capacitor 3:** Do **Pino 14 (DVDD_REG_1V8) para o DGND**.<br>
+
+<br>**Capacitor 4:** Do **Pino 31 (VBIAS_CAP) para o AGND**. |
+| **11** | Capacitor Cerâmico Multicamadas MLCC 100nF 16V X7R SMD 0603 (Bypass e Filtros LPTIA/DACs) | C0603JRX7R7BB104 | YAGEO | 7 | Dispostos individualmente:<br>
+
+<br>• 1x no **Pino 30 (AVDD)** para o AGND<br>
+
+<br>• 1x no **Pino 41 (AVDD)** para o AGND<br>
+
+<br>• 1x no **Pino 26 (IOVDD)** para o DGND<br>
+
+<br>• 1x instalado **entre o Pino 2 (RC0_1) e o Pino 3 (RC0_0)**<br>
+
+<br>• 1x do **Pino 8 (VBIAS0) para o AGND**<br>
+
+<br>• 1x do **Pino 9 (VZERO0) para o AGND**<br>
+
+<br>• 1x do **Pino 40 (AIN4/LPF0) para o AGND** |
 
 ---
 
-## 2. Notas de Implementação de Hardware e Engenharia
+## 2. Resumo das Diretrizes de Conexão Física (PCB Layout)
 
-### A. Malha do Cristal e Temporização Síncrona (Itens 3 e 4)
-* **Objetivo Técnico:** Mitigar o desvio (*drift*) de fase e frequência do motor interno da Transformada Discreta de Fourier (DFT) do AD5941.
-* **Cálculo de Carga:** Os capacitores de 12 pF operam em malha em direção ao terra (GND). Eles foram dimensionados para balancear as capacitâncias parasitas das trilhas de cobre e pads físicos da placa de circuito impresso ($C_{stray} \approx 3\text{ pF}$), permitindo que o cristal enxergue exatamente a sua capacitância de carga nominal ideal de fábrica ($C_L = 9\text{ pF}$):
-  $$C_L = \frac{C_1 \cdot C_2}{C_1 + C_2} + C_{stray} = \frac{12 \cdot 12}{12 + 12} + 3 = 6 + 3 = 9\text{ pF}$$
-* **Estabilidade Térmica:** O uso mandatório do dielétrico **C0G (NP0)** garante coeficiente térmico nulo, impedindo oscilações de frequência causadas por variações na bancada de ensaios.
-
-### B. Sistema de Filtragem de Potência e Desacoplamento (Itens 5, 6 e 7)
-* **Filtragem Bulk (Item 5):** O capacitor de 10 µF (encapsulamento 1206) atua como acumulador de energia local na entrada principal de 3.3V. Ele absorve quedas de tensão transitórias bruscas geradas pelas demandas de corrente do rádio Wi-Fi e Bluetooth do ESP32.
-* **Filtragem Bypass (Item 7):** Os capacitores de 0.1 µF (0603) eliminam os ruídos parasitas lógicos de alta frequência na faixa de MHz gerados pelo barramento digital SPI. Devem ser soldados fisicamente a menos de 1.5 mm de distância de cada pino de alimentação positiva analógica e digital do AD5941.
-* **Estabilização LDO (Item 6):** O capacitor de 1 µF acoplado ao pino `Reg_DVDD` estabiliza o regulador de tensão linear interno de baixo dropout do chip analógico.
-
-### C. Estágio Metrológico de Calibração (Item 8)
-* **Resistor de Referência ($R_{cal}$):** O resistor de filme fino de 1.00 kΩ atua como o padrão de malha ratiométrica de ultra precisão do sistema. Sua tolerância estrita de **0.1%** minimiza erros de quantização sistemáticos do conversor analógico-digital (SAR ADC), servindo como o valor conhecido confiável de comparação para o cálculo de impedâncias complexas desconhecidas.
+* **Malhas de Terra (GND):** Atente-se para conectar os capacitores vinculados ao **DGND** (pinos 13, 23, 25) no plano de terra digital, e os capacitores vinculados ao **AGND** (pinos 29, 42, 44) no plano de terra analógico.
+* **Proximidade:** Todos os capacitores do **Item 11** (Bypass de 100 nF) e do **Item 10** (Filtros de reguladores de 470 nF) devem ficar o mais perto possível (menos de 1,5 mm) de seus respectivos pinos para garantir a imunidade a ruídos elétricos de alta frequência.
+* **Resistor de Calibração ($R_{CAL}$):** O pino 32 e o pino 33 não devem possuir trilhas longas ou ramificadas até o resistor de precisão para evitar que a própria resistência da trilha interfira na calibração ratiométrica do sistema.

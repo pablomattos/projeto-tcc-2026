@@ -13,17 +13,17 @@ const double CLK_FREQ = 16776000.0;
 // CONFIGURAÇÕES DA VARREDURA
 // ======================================================
 
-const long startFreq = 1000;   // Frequência inicial
+const long startFreq = 10000;   // Frequência inicial
 const long freqIncr  = 1000;    // Incremento
 
-const int TOTAL_POINTS = 100;
+const int TOTAL_POINTS = 91;
 const int numIncr = TOTAL_POINTS - 1;
 
 // ======================================================
 // RESISTOR DE CALIBRAÇÃO
 // ======================================================
 
-const double R_CAL = 4290.0;
+const double R_CAL = 1460.0;
 
 // ======================================================
 // SETTLING TIME
