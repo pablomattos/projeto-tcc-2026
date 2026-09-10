@@ -37,11 +37,11 @@ csv_filename = "simulacao_teorica_linear.csv"
 with open(csv_filename, mode='w', newline='', encoding='utf-8') as f:
     writer = csv.writer(f)
     # Cabeçalho estruturado conforme solicitado anteriormente
-    writer.writerow(["Frequencia_Hz", "Z_Real", "Z_Imaginario", "Fase_Graus", "Magnitude_Ohm"])
+    writer.writerow(["Frequencia_Hz", "Z_Real", "Fase_Graus"])
     
     # Grava linha por linha os passos de 1kHz
     for i in range(len(freqs)):
-        writer.writerow([freqs[i], z_real[i], z_imag[i], fase_graus[i], magnitude[i]])
+        writer.writerow([freqs[i], z_real[i], fase_graus[i]])
 
 print(f"✅ Simulação linear concluída! Dados salvos em: {csv_filename}")
 
