@@ -82,6 +82,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=COCASLLF
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for pcb-sensor-AD5933_2\Design Rule Check - pcb-sensor-AD5933.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
