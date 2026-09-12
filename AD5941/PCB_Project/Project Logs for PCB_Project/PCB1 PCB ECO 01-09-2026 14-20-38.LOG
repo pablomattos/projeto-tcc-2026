@@ -1,0 +1,120 @@
+Added Component: Designator=Ciso1(Male Header Socket 2-position)
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "952-2262-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "855-M20-9990246"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "M20-9990246"; VariantName = "[No Variations]"
+Added Component: Designator=Ciso2(Male Header Socket 2-position)
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "952-2262-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "855-M20-9990246"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "M20-9990246"; VariantName = "[No Variations]"
+Added Component: Designator=Ciso3(Male Header Socket 2-position)
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "952-2262-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "855-M20-9990246"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "M20-9990246"; VariantName = "[No Variations]"
+Added Component: Designator=Ciso4(Male Header Socket 2-position)
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "952-2262-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "855-M20-9990246"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "M20-9990246"; VariantName = "[No Variations]"
+Added Component: Designator=Ciso5(Male Header Socket 2-position)
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "952-2262-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "855-M20-9990246"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "M20-9990246"; VariantName = "[No Variations]"
+Added Component: Designator=Clpf(Male Header Socket 2-position)
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "952-2262-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "855-M20-9990246"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "M20-9990246"; VariantName = "[No Variations]"
+Added Component: Designator=J5(Terminal Block 2-position)
+Add component (AddParameter): Name = "Parameter 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2223-TB0011-350-02BE-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "179-TB0011-350-02BE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "TB0011-350-02BE"; VariantName = "[No Variations]"
+Added Component: Designator=J6(Terminal Block 2-position)
+Add component (AddParameter): Name = "Parameter 1"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2223-TB0011-350-02BE-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "179-TB0011-350-02BE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "TB0011-350-02BE"; VariantName = "[No Variations]"
+Added Component: Designator=Rlimit(Male Header Socket 2-position)
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 2"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 3"; Value = "Farnell"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "952-2262-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 2"; Value = "855-M20-9990246"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 3"; Value = "M20-9990246"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=Clpf-2
+Added Pin To Net: NetName=NetCiso1_1 Pin=Ciso1-1
+Added Pin To Net: NetName=NetCiso1_1 Pin=U1-47
+Added Net: Name=NetCiso1_1
+Added Pin To Net: NetName=NetCiso1_2 Pin=Ciso1-2
+Added Pin To Net: NetName=NetCiso1_2 Pin=Rlimit-1
+Added Net: Name=NetCiso1_2
+Added Pin To Net: NetName=NetCiso2_1 Pin=Ciso2-1
+Added Pin To Net: NetName=NetCiso2_1 Pin=U1-45
+Added Net: Name=NetCiso2_1
+Added Pin To Net: NetName=NetCiso2_2 Pin=Ciso2-2
+Added Pin To Net: NetName=NetCiso2_2 Pin=Ciso3-2
+Added Pin To Net: NetName=NetCiso2_2 Pin=Ciso5-2
+Added Pin To Net: NetName=NetCiso2_2 Pin=J3-2
+Added Net: Name=NetCiso2_2
+Added Pin To Net: NetName=NetCiso3_1 Pin=Ciso3-1
+Added Pin To Net: NetName=NetCiso3_1 Pin=U1-38
+Added Net: Name=NetCiso3_1
+Added Pin To Net: NetName=NetCiso4_1 Pin=Ciso4-1
+Added Pin To Net: NetName=NetCiso4_1 Pin=U1-37
+Added Net: Name=NetCiso4_1
+Added Pin To Net: NetName=NetCiso4_2 Pin=Ciso4-2
+Added Pin To Net: NetName=NetCiso4_2 Pin=J2-2
+Added Pin To Net: NetName=NetCiso4_2 Pin=Rlimit-2
+Added Net: Name=NetCiso4_2
+Added Pin To Net: NetName=NetCiso5_1 Pin=Ciso5-1
+Added Pin To Net: NetName=NetCiso5_1 Pin=U1-36
+Added Net: Name=NetCiso5_1
+Added Pin To Net: NetName=NetClpf_1 Pin=Clpf-1
+Added Pin To Net: NetName=NetClpf_1 Pin=U1-40
+Added Net: Name=NetClpf_1
+Added Pin To Net: NetName=NetJ5_1 Pin=J5-1
+Added Pin To Net: NetName=NetJ5_1 Pin=U1-34
+Added Net: Name=NetJ5_1
+Added Pin To Net: NetName=NetJ5_2 Pin=J5-2
+Added Pin To Net: NetName=NetJ5_2 Pin=U1-35
+Added Net: Name=NetJ5_2
+Added Pin To Net: NetName=NetJ6_1 Pin=J6-1
+Added Pin To Net: NetName=NetJ6_1 Pin=U1-27
+Added Net: Name=NetJ6_1
+Added Pin To Net: NetName=NetJ6_2 Pin=J6-2
+Added Pin To Net: NetName=NetJ6_2 Pin=U1-28
+Added Net: Name=NetJ6_2
+Added Member To Class: ClassName=Sheet2 Member=Component Ciso1 M20-9990246
+Added Member To Class: ClassName=Sheet2 Member=Component Ciso2 M20-9990246
+Added Member To Class: ClassName=Sheet2 Member=Component Ciso3 M20-9990246
+Added Member To Class: ClassName=Sheet2 Member=Component Ciso4 M20-9990246
+Added Member To Class: ClassName=Sheet2 Member=Component Ciso5 M20-9990246
+Added Member To Class: ClassName=Sheet2 Member=Component Clpf M20-9990246
+Added Member To Class: ClassName=Sheet2 Member=Component J5
+Added Member To Class: ClassName=Sheet2 Member=Component J6
+Added Member To Class: ClassName=Sheet2 Member=Component Rlimit M20-9990246
+Added Room: Name=Sheet2
+Added Room: Name=Sheet3
+Added Room: Name=Sheet4

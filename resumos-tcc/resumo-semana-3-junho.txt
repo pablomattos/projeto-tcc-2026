@@ -1,0 +1,13 @@
+Pablo 
+Resumo da semana (10/08 a 14/08)
+
+Montagem do esquemático do sensor AD5941
+Revisar esquemático do sensor AD5941
+Montagem do PCB do sensor AD5941
+Listar materiais para o sensor AD5941
+
+
+
+
+
+Pesquisador em Iniciação Científica, focado no apoio a projetos de desenvolvimento, testes funcionais e pesquisa de tecnologias para aprimoramento de sensores. Eletrotécnico com sólida experiência em manutenção elétrica predial e industrial, CLPs, inversores de frequência e redes lógicas. Atuou em instituições como PUCRS e Liberato na configuração de sensores, protocolos (Ethernet, BACNet, Modbus), prototipagem e relatórios técnicos. Experiência técnica aplicada à pesquisa e inovação.
