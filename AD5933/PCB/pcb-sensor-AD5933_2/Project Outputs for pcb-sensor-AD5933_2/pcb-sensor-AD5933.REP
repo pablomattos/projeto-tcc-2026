@@ -1,0 +1,66 @@
+*************************************************************
+FileName = pcb-sensor-AD5933.GBR
+AutoAperture = True
+*************************************************************
+Generating : Keep-Out Layer
+      File : pcb-sensor-AD5933.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D24
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : pcb-sensor-AD5933.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : pcb-sensor-AD5933.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+*************************************************************
+

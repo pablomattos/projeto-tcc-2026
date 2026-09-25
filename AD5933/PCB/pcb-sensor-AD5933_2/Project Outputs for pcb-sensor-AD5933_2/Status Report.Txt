@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [pcb-sensor-AD5933_2.PrjPcb]
+   Generated File[pcb-sensor-AD5933.TXT]
+   Generated File[pcb-sensor-AD5933.LDP]
+   Generated File[pcb-sensor-AD5933.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 15:13:40 On 18/09/2026

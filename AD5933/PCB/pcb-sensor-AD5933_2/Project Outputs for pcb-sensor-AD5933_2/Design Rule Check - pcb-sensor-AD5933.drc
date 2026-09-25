@@ -1,9 +1,15 @@
 Protel Design System Design Rule Check
 PCB File : C:\PABLO\tcc\projeto-tcc-2026\AD5933\PCB\pcb-sensor-AD5933_2\pcb-sensor-AD5933.PcbDoc
-Date     : 10/09/2026
-Time     : 16:21:02
+Date     : 14/09/2026
+Time     : 15:02:48
 
-Processing Rule : Clearance Constraint (Gap=0.152mm) (All),(All)
+Processing Rule : Clearance Constraint (Gap=0.2mm) (WithinRoom('AD8606')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (WithinRoom('AD5933')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.4mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
@@ -39,10 +45,16 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
+Processing Rule : Room AD5933 (Bounding Region = (73.533mm, 70.485mm, 87.63mm, 79.629mm) (False)
+Rule Violations :0
+
+Processing Rule : Room AD8606 (Bounding Region = (101.556mm, 71.882mm, 110.363mm, 76.962mm) (False)
+Rule Violations :0
+
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
 Violations Detected : 0
 Waived Violations : 0
-Time Elapsed        : 00:00:02
+Time Elapsed        : 00:00:01
