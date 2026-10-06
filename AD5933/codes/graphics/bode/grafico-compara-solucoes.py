@@ -4,10 +4,10 @@ import pandas as pd
 
 # Mapeamento dos arquivos CSV e seus respectivos rótulos para a legenda
 arquivos = {
-    'teste-01-branco.csv': 'Teste - Branco',
-    'teste-01-005.csv': 'Teste - 0.05',
-    'teste-01-025.csv': 'Teste - 0.25',
-    'teste-01-500.csv': 'Teste - 5.00',
+    'teste-01-branco.csv': 'Branco',
+    'teste-01-005.csv': '0.05 molar',
+    'teste-01-025.csv': '0.25 molar',
+    'teste-01-500.csv': '0.5 molar',
 }
 
 # Criando a figura com 2 subplots (Impedância no superior e Fase no inferior)
@@ -75,13 +75,13 @@ ax1.set_title(
     fontweight='bold',
 )
 ax1.grid(True, linestyle='--', alpha=0.6)
-ax1.legend(title='Amostras')
+ax1.legend(title='Concen. NaCl')
 
 # Configurações do gráfico de Fase
 ax2.set_xlabel('Frequência (kHz)', fontweight='bold')
 ax2.set_ylabel('Fase Média (°)', fontweight='bold')
 ax2.grid(True, linestyle='--', alpha=0.6)
-ax2.legend(title='Amostras')
+ax2.legend(title='Concen. NaCl')
 
 plt.tight_layout()
 plt.show()
