@@ -1,0 +1,22 @@
+- Introdução: explicar sobre o AD5933 e citar artigos que confirmam como ele funciona.
+- Para que serve e onde é usado.
+- Citar dispositivos comerciais que tem a mesma utilidade porém são mais caros e não são portáteis.
+- Comparar o dispositivo como uma alternativa mais vantajosa
+- Final: "Neste trabalho de conclusão de curso..." (o que foi feito, breve resumo)
+
+Objetivos:
+
+Geral: produto mais barato e portátil
+
+Específicos: o que ele faz, desafios.
+
+Revisão bibliográfica:
+
+
+Metodologia:
+Passo a passo para a construção do dispositivo
+
+Met.análises: quais foram feitas (citar características)
+
+Resultados e discussões das análises
+
